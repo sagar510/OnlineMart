@@ -93,6 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="demo.aspx" />
+    <Content Include="demo2.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -101,6 +102,13 @@
     </Compile>
     <Compile Include="demo.aspx.vb">
       <DependentUpon>demo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="demo2.aspx.designer.vb">
+      <DependentUpon>demo2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo2.aspx.vb">
+      <DependentUpon>demo2.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
